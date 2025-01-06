@@ -1,0 +1,24 @@
+{
+  "name": "typescript-lambda",
+  "version": "1.0.0",
+  "description": "AWS Lambda function with TypeScript",
+  "main": "dist/handler.js",
+  "scripts": {
+    "build": "esbuild src/handler.ts --bundle --platform=node --target=node22 --outfile=dist/handler.js",
+    "generate:types": "generate-types",
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@lang-engine/lang-engine-node": "^1.0.2",
+    "@types/aws-lambda": "^8.10.147",
+    "@types/node": "^22.10.5",
+    "esbuild": "^0.24.2",
+    "typescript": "^5.7.2"
+  },
+  "dependencies": {
+    "openai": "^4.77.3"
+  }
+}
