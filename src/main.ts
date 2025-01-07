@@ -10,7 +10,7 @@ export class Node implements BaseFunctions {
 
     const chatCompletion = await client.chat.completions.create({
       messages: input.messages as ChatCompletionMessageParam[],
-      model: input.modal,
+      model: input.model,
     });
 
     return {

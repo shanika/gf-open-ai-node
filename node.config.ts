@@ -14,8 +14,8 @@ const config: NodeConfig = {
           required: true,
         },
         {
-          name: "modal",
-          displayName: "Modal",
+          name: "model",
+          displayName: "Model",
           type: "select",
           required: true,
           options: [

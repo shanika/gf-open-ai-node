@@ -1,9 +1,9 @@
 // Generated file - DO NOT EDIT
-// Generated on: 2025-01-06T02:35:05.820Z
+// Generated on: 2025-01-07T08:27:00.949Z
 
 export interface CallModalInput {
   apiKey: string;
-  modal: string;
+  model: string;
   messages: {
   role: string;
   content: string;
