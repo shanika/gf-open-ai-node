@@ -5,6 +5,7 @@
   "main": "dist/handler.js",
   "scripts": {
     "build": "esbuild src/handler.ts --bundle --platform=node --target=node22 --outfile=dist/handler.js",
+    "generate:config": "generate-config",
     "generate:types": "generate-types",
     "test": "jest"
   },

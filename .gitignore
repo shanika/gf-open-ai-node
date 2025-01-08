@@ -1,5 +1,5 @@
 node_modules/
-dist/
+dist/handler.js
 .env
 .DS_Store
 *.log 
