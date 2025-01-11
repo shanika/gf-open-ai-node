@@ -4,8 +4,8 @@ const config: NodeConfig = {
   name: "OpenAI Chat API Node",
   functions: [
     {
-      name: "callModal",
-      displayName: "Call Modal",
+      name: "callModel",
+      displayName: "Call Model",
       inputs: [
         {
           name: "apiKey",

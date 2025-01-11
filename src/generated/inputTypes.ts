@@ -1,7 +1,7 @@
 // Generated file - DO NOT EDIT
-// Generated on: 2025-01-07T08:27:00.949Z
+// Generated on: 2025-01-11T21:15:13.379Z
 
-export interface CallModalInput {
+export interface CallModelInput {
   apiKey: string;
   model: string;
   messages: {
@@ -11,5 +11,5 @@ export interface CallModalInput {
 }
 
 export interface BaseFunctions {
-  callModal(input: CallModalInput): Promise<Record<string, any>>;
+  callModel(input: CallModelInput): Promise<Record<string, any>>;
 }

@@ -18,6 +18,7 @@ export const handler = async (
       body: JSON.stringify(result),
     };
   } catch (error) {
+    console.error(error);
     return {
       statusCode: 500,
       body: JSON.stringify(error),

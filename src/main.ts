@@ -1,9 +1,9 @@
 import OpenAI from "openai";
-import { BaseFunctions, CallModalInput } from "./generated/inputTypes.js";
+import { BaseFunctions, CallModelInput } from "./generated/inputTypes.js";
 import { ChatCompletionMessageParam } from "openai/resources/index.js";
 
 export class Node implements BaseFunctions {
-  async callModal(input: CallModalInput): Promise<Record<string, any>> {
+  async callModel(input: CallModelInput): Promise<Record<string, any>> {
     const client = new OpenAI({
       apiKey: input.apiKey,
     });
