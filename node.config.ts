@@ -59,15 +59,21 @@ const config: NodeConfig = {
           },
         },
         {
-          name: "test",
-          displayName: "Test",
+          name: "profile",
+          displayName: "Profile",
           type: "object",
           required: false,
           fields: [
             {
-              name: "test",
+              name: "name",
               type: "string",
-              displayName: "Test",
+              displayName: "Name",
+              required: false,
+            },
+            {
+              name: "age",
+              type: "number",
+              displayName: "Age",
               required: false,
             },
           ],
