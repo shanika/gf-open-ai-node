@@ -29,6 +29,7 @@ const config: NodeConfig = {
           displayName: "Messages",
           type: "array",
           required: true,
+          mappable: true,
           itemsType: {
             name: "message",
             displayName: "Message",
@@ -56,6 +57,21 @@ const config: NodeConfig = {
               },
             ],
           },
+        },
+        {
+          name: "test",
+          displayName: "Test",
+          type: "object",
+          required: false,
+          fields: [
+            {
+              name: "test",
+              type: "string",
+              displayName: "Test",
+              required: false,
+            },
+          ],
+          mappable: true,
         },
       ],
     },

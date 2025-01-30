@@ -13,7 +13,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@lang-engine/lang-engine-node": "^1.0.2",
+    "@lang-engine/lang-engine-node": "^1.0.3",
     "@types/aws-lambda": "^8.10.147",
     "@types/node": "^22.10.5",
     "esbuild": "^0.24.2",
